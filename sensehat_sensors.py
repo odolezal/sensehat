@@ -7,7 +7,6 @@
 ###################
 import os
 import datetime
-import httplib2
 from time import sleep
 from sense_hat import SenseHat
 
