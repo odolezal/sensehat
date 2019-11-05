@@ -9,7 +9,7 @@ Obsahuje matici 8x8 RGB LED, pětitlačítkový joystick a následující senzor
 Integrace se serverem TMEP.cz
 ----
 - Skript: [sensehat_tmep_raw.py](sensehat_tmep_raw.py)
-- Tento skrip vyčte hodnotu teploty a tlaku z destičky, zobrazí je v linuxové konzoli a na matici LED diod (jen teplotu) a zároveň obě hodnoty odešle na server [https://www.tmep.cz](tmep.cz).
+- Tento skrip vyčte hodnotu teploty a tlaku z destičky, zobrazí je v linuxové konzoli a na matici LED diod (jen teplotu) a zároveň obě hodnoty odešle na server [tmep.cz](https://www.tmep.cz).
 - **Ve skriptu je nutné správně nastavit hodnotu ```guid``` a subdomenu ```url```, tak jak jste je zvolili při registraci na serveru tmep.cz**
 - Ukázka výstupu linuxové konzole:
 ```
