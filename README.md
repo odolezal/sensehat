@@ -11,6 +11,7 @@ Integrace se serverem TMEP.cz
 - Skript: [sensehat_tmep_raw.py](sensehat_tmep_raw.py)
 - Tento skrip vyčte hodnotu teploty a tlaku z destičky, zobrazí je v linuxové konzoli a na matici LED diod (jen teplotu) a zároveň obě hodnoty odešle na server [tmep.cz](https://www.tmep.cz).
 - **Ve skriptu je nutné správně nastavit hodnotu ```guid``` a subdomenu ```url```, tak jak jste je zvolili při registraci na serveru tmep.cz**
+- Je počítáno s tím, že je destička Sense HAT umístěna mimo samotné Raspberry Pi a to kvůli ovlivňování měření teplem ze samotného Raspberry Pi (hlavně procesor). Doporučuji [tento](https://rpishop.cz/propojky/424-397-gpio-40-zilovy-duhovy-plochy-kabel-male-female.html#/116-delka-200mm) prodlužovací kabel. 
 - Ukázka výstupu linuxové konzole:
 ```
 START--------------------------------
